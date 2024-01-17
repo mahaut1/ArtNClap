@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+#bandeau{
+    display:flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+
+.articles{
+    padding-left: 10px;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+
+h2{
+    display: flex;
+    padding-left: 10px;
+    align-items: center; 
+    justify-content: center;
+}
+p{
+    padding:10px
+}
