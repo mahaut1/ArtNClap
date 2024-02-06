@@ -7,6 +7,9 @@
   vertical-align: baseline;
 
 }
+.row{
+    margin:0px;
+}
 
 .logo{
     display:flex;
@@ -34,4 +37,25 @@ h2{
 }
 p{
     padding:10px
+}
+
+@media(max-width:750px){
+    .logo{
+        display:none;
+        justify-content: center;
+        text-align: center;
+        width:50px;
+    }
+    .me-2{
+        display:none;
+    }
+    .articles{
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+    iframe{
+        width:100%;
+    }
+
 }
